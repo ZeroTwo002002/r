@@ -64,7 +64,8 @@
         <h3><span>qualification :</span> Esprit d'équipe, motivé et passionné</h3>
         <h3><span>post :</span> full stack developer</h3>
         <h3><span>langage :</span> HTML, CSS, Javascript, Bootstrap, PHP</h3>
-        <a href="file:///C:/Users/Formation_mode_2023/Downloads/CV_2_1.pdf" download><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+        <a href="https://drive.google.com/file/d/1EO9cMHw7-4OQWAT5iHz42c1n-wIizRUD/view?usp=sharing">
+       <button class="btn">Download CV <i class="fas fa-download"></i></button></a>
     </div>
 
     <div class="counter">
@@ -162,12 +163,13 @@
     <section class="portfolio" id="portfolio">
     <h1 class="heading"> my <span>portfolio </span> </h1>
     <div class="box-container">
-        <div class="box">
-    <img src="imgs/img1.jpg" alt="">
+        <div class="box"><a href="https://13.formation.mode83.net/mohamed.hamdani/">
+             <img src="imgs/vagabond.webp" alt=""></a>
+   
 
         </div>
         <div class="box">
-            <img src="imgs/img1.jpg" alt="">
+            <img src="imgs/portfolio.jpg" alt="">
         
         </div>
         <div class="box">
@@ -184,7 +186,7 @@
    </div>
     <div class="box">
          <img src="imgs/img1.jpg" alt="">
-                        
+                  
     </div>
 
 
@@ -210,16 +212,18 @@
             </div>
         </div>
 
-        <form>
+        <form id="contact-form" method="post" action="mail.php">
 
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="text" placeholder="project" class="box">
-            <textarea cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <input type="text" name="nom" placeholder="name" class="box" id="name">
+            <input type="email" name="mail" placeholder="email" class="box" id="email">
+            <input type="text" name="subject" placeholder="project" class="box" id="subject">
+            <textarea cols="30" rows="10" class="box message" name="message" placeholder="message" id="message"></textarea>
             <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
         </form>
     </div>
+
 </section>
+
 <!--contact ends-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="script.js"></script>
