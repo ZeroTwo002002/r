@@ -24,7 +24,7 @@ try {
     $mail->SMTPSecure = 'tls'; // Vous pouvez utiliser 'ssl' au lieu de 'tls' si nécessaire
     $mail->Port = 587; // Utilisez le port approprié pour votre serveur SMTP
     $mail->setFrom($email, $nom, $subject);
-        $mail->addAddress('mohamedyani2019@gmail.com', 'Votre Nom'); // Remplacez par votre adresse e-mail
+        $mail->addAddress('mohamedyani2019@gmail.com', 'Hamdani Mohamed'); // Remplacez par votre adresse e-mail
         
         $mail->isHTML(true);
         $mail->Subject = 'Nouveau message depuis le formulaire';
